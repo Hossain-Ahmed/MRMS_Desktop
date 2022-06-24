@@ -23,5 +23,25 @@ namespace MRMS_WPF.View
         {
             InitializeComponent();
         }
+
+        private void BtnTotalMeal_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnTotalBazar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnTotalExtraBazar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnTotalPay_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
