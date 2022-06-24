@@ -6,34 +6,34 @@
         xmlns:local="clr-namespace:MRMS_WPF.View"
         mc:Ignorable="d"
         Title="Dashboard" Height="450" Width="800">
-    <Grid Margin="2,0,-2,0">
-        <Label Content="Name" HorizontalAlignment="Left" Height="31" Margin="24,24,0,0" VerticalAlignment="Top" Width="73"/>
-        <Label Content="Bazar_Amount" HorizontalAlignment="Left" Height="31" Margin="89,24,0,0" VerticalAlignment="Top" Width="101"/>
-        <Label Content="Extra_Amount" HorizontalAlignment="Left" Height="31" Margin="217,24,0,0" VerticalAlignment="Top" Width="99"/>
+    <Grid>
+        <Label Content="Name" HorizontalAlignment="Left" Height="31" Margin="24,24,0,0" VerticalAlignment="Top" Width="54"/>
+        <Label Content="Bazar_Amount" HorizontalAlignment="Left" Height="31" Margin="153,24,0,0" VerticalAlignment="Top" Width="88"/>
+        <Label Content="Extra_Amount" HorizontalAlignment="Left" Height="31" Margin="230,24,0,0" VerticalAlignment="Top" Width="86"/>
         <Label Content="Member_A" x:Name="Member_A" HorizontalAlignment="Left" Height="31" Margin="24,60,0,0" VerticalAlignment="Top" Width="73" RenderTransformOrigin="0.549,0.649"/>
         <Label Content="Member_B" x:Name="Member_B" HorizontalAlignment="Left" Height="31" Margin="24,96,0,0" VerticalAlignment="Top" Width="73"/>
         <Label Content="Member_C" x:Name="Member_C" HorizontalAlignment="Left" Height="31" Margin="24,132,0,0" VerticalAlignment="Top" Width="73"/>
         <Label Content="Member_D" x:Name="Member_D"  HorizontalAlignment="Left" Height="31" Margin="24,168,0,0" VerticalAlignment="Top" Width="73"/>
         <Label Content="Member_E" x:Name="Member_E"  HorizontalAlignment="Left" Height="31" Margin="24,204,0,0" VerticalAlignment="Top" Width="73"/>
         <Label Content="Member_F" x:Name="Member_F"  HorizontalAlignment="Left" Height="31" Margin="24,235,0,0" VerticalAlignment="Top" Width="73"/>
-        <TextBox x:Name="TextBoxA_Bazar" HorizontalAlignment="Left" Height="23" Margin="90,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="TextBoxA_ExtraBazar" HorizontalAlignment="Left" Height="23" Margin="216,59,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="TextBoxB_Bazar" HorizontalAlignment="Left" Height="23" Margin="90,97,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="TextBoxB_ExtraBazar" HorizontalAlignment="Left" Height="23" Margin="216,96,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="TextBoxC_Bazar" HorizontalAlignment="Left" Height="23" Margin="90,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox  x:Name="TextBoxC_ExtraBazar" HorizontalAlignment="Left" Height="23" Margin="216,132,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="TextBoxD_Bazar"  HorizontalAlignment="Left" Height="23" Margin="90,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="TextBoxD_ExtraBazar" HorizontalAlignment="Left" Height="23" Margin="216,168,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="TextBoxE_Bazar" HorizontalAlignment="Left" Height="23" Margin="90,205,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="TextBoxE_ExtraBazar" HorizontalAlignment="Left" Height="23" Margin="216,204,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="TextBoxF_Bazar" HorizontalAlignment="Left" Height="23" Margin="90,236,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="TextBoxF_ExtraBazar" HorizontalAlignment="Left" Height="23" Margin="216,235,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="TextBxTotalMeal" HorizontalAlignment="Left" Height="23" Margin="112,294,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="TextBoxTotalBazar" HorizontalAlignment="Left" Height="23" Margin="324,292,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="TextBoxUtility" HorizontalAlignment="Left" Height="23" Margin="419,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="TextBoxBuaBill" HorizontalAlignment="Left" Height="23" Margin="657,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="TextBoxNetBill" HorizontalAlignment="Left" Height="23" Margin="419,74,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="TextBoxDirtBill" HorizontalAlignment="Left" Height="23" Margin="657,73,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="TextBoxA_Bazar" HorizontalAlignment="Left" Height="23" Margin="154,56,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="73"/>
+        <TextBox x:Name="TextBoxA_ExtraBazar" HorizontalAlignment="Left" Height="23" Margin="261,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+        <TextBox x:Name="TextBoxB_Bazar" HorizontalAlignment="Left" Height="23" Margin="154,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="73"/>
+        <TextBox x:Name="TextBoxB_ExtraBazar" HorizontalAlignment="Left" Height="23" Margin="261,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+        <TextBox x:Name="TextBoxC_Bazar" HorizontalAlignment="Left" Height="23" Margin="154,129,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="73"/>
+        <TextBox  x:Name="TextBoxC_ExtraBazar" HorizontalAlignment="Left" Height="23" Margin="261,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+        <TextBox x:Name="TextBoxD_Bazar"  HorizontalAlignment="Left" Height="23" Margin="154,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="73"/>
+        <TextBox x:Name="TextBoxD_ExtraBazar" HorizontalAlignment="Left" Height="23" Margin="261,164,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+        <TextBox x:Name="TextBoxE_Bazar" HorizontalAlignment="Left" Height="23" Margin="154,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="73"/>
+        <TextBox x:Name="TextBoxE_ExtraBazar" HorizontalAlignment="Left" Height="23" Margin="261,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+        <TextBox x:Name="TextBoxF_Bazar" HorizontalAlignment="Left" Height="23" Margin="154,232,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="73"/>
+        <TextBox x:Name="TextBoxF_ExtraBazar" HorizontalAlignment="Left" Height="23" Margin="261,231,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+        <TextBox x:Name="TextBoxTotalMeal" HorizontalAlignment="Left" Height="23" Margin="112,266,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="TextBoxTotalBazar" HorizontalAlignment="Left" Height="23" Margin="324,264,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="TextBoxUtility" HorizontalAlignment="Left" Height="23" Margin="547,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="65"/>
+        <TextBox x:Name="TextBoxBuaBill" HorizontalAlignment="Left" Height="23" Margin="701,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="56"/>
+        <TextBox x:Name="TextBoxNetBill" HorizontalAlignment="Left" Height="23" Margin="452,73,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="TextBoxDirtBill" HorizontalAlignment="Left" Height="23" Margin="659,72,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
         <TextBox x:Name="TextBoxMemberB_Pay" HorizontalAlignment="Left" Height="23" Margin="645,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
         <TextBox x:Name="TextBoxMemberA_Pay" HorizontalAlignment="Left" Height="23" Margin="645,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
         <TextBox x:Name="TextBoxMemberC_Pay" HorizontalAlignment="Left" Height="23" Margin="645,186,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
@@ -47,15 +47,28 @@
         <Label Content="Member_D" x:Name="Member_D_Copy2"  HorizontalAlignment="Left" Height="31" Margin="550,215,0,0" VerticalAlignment="Top" Width="73"/>
         <Label Content="Member_E" x:Name="Member_E_Copy2"  HorizontalAlignment="Left" Height="31" Margin="550,251,0,0" VerticalAlignment="Top" Width="73"/>
         <Label Content="Member_F" x:Name="Member_F_Copy2"  HorizontalAlignment="Left" Height="31" Margin="550,282,0,0" VerticalAlignment="Top" Width="73"/>
-        <Button Content="Total Meal" x:Name="BtnTotalMeal" HorizontalAlignment="Left" Margin="20,297,0,0" VerticalAlignment="Top" Width="75" Click="BtnTotalMeal_Click"/>
-        <Button Content="Total Bazar" x:Name="BtnTotalBazar" HorizontalAlignment="Left" Margin="225,296,0,0" VerticalAlignment="Top" Width="91" Click="BtnTotalBazar_Click"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="112,343,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
-        <Button Content="TotalExtraBazar" x:Name="BtnTotalExtraBazar"  HorizontalAlignment="Left" Margin="20,346,0,0" VerticalAlignment="Top" Width="87" Click="BtnTotalExtraBazar_Click"/>
+        <Button Content="Total Meal" x:Name="BtnTotalMeal" HorizontalAlignment="Left" Margin="20,269,0,0" VerticalAlignment="Top" Width="75" Click="BtnTotalMeal_Click"/>
+        <Button Content="Total Bazar" x:Name="BtnTotalBazar" HorizontalAlignment="Left" Margin="225,264,0,0" VerticalAlignment="Top" Width="91" Click="BtnTotalBazar_Click"/>
+        <TextBox x:Name="TextBoxTotalExtraBazar" HorizontalAlignment="Left" Height="23" Margin="321,293,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
+        <Button Content="TotalExtraBazar" x:Name="BtnTotalExtraBazar"  HorizontalAlignment="Left" Margin="229,296,0,0" VerticalAlignment="Top" Width="87" Click="BtnTotalExtraBazar_Click"/>
         <Button Content="Total Pay" x:Name="BtnTotalPay" HorizontalAlignment="Left" Margin="473,348,0,0" VerticalAlignment="Top" Width="154" Click="BtnTotalPay_Click"/>
-        <Label Content="Utility" HorizontalAlignment="Left" Height="31" Margin="344,30,0,0" VerticalAlignment="Top" Width="73" RenderTransformOrigin="0.549,0.649"/>
-        <Label Content="Net" HorizontalAlignment="Left" Height="31" Margin="344,66,0,0" VerticalAlignment="Top" Width="73"/>
-        <Label Content="Bua Bill"  HorizontalAlignment="Left" Height="31" Margin="550,35,0,0" VerticalAlignment="Top" Width="73" RenderTransformOrigin="0.549,0.649"/>
-        <Label Content="Dirt Bill"  HorizontalAlignment="Left" Height="31" Margin="550,71,0,0" VerticalAlignment="Top" Width="73"/>
-
+        <Label Content="Utility" HorizontalAlignment="Left" Height="31" Margin="489,33,0,0" VerticalAlignment="Top" Width="52" RenderTransformOrigin="0.549,0.649"/>
+        <Label Content="Net" HorizontalAlignment="Left" Height="25" Margin="392,73,0,0" VerticalAlignment="Top" Width="32"/>
+        <Label Content="Bua Bill"  HorizontalAlignment="Left" Height="26" Margin="621,34,0,0" VerticalAlignment="Top" Width="64" RenderTransformOrigin="0.549,0.649"/>
+        <Label Content="Dirt Bill"  HorizontalAlignment="Left" Height="31" Margin="566,70,0,0" VerticalAlignment="Top" Width="73"/>
+        <TextBox x:Name="TextBoxMealRate" HorizontalAlignment="Left" Height="23" Margin="112,296,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="TextBoxExtraRate" HorizontalAlignment="Left" Height="23" Margin="119,331,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
+        <Button Content="MealRate" x:Name="BtnMealRate" HorizontalAlignment="Left" Margin="24,299,0,0" VerticalAlignment="Top" Width="75" Click="BtnMealRate_Click"/>
+        <Button Content="Extra_Rate" x:Name="BtnExtraRate" HorizontalAlignment="Left" Margin="20,331,0,0" VerticalAlignment="Top" Width="91" Click="BtnExtraRate_Click"/>
+        <TextBox x:Name="TextBoxA_Meal" HorizontalAlignment="Left" Height="23" Margin="94,57,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="TextBoxB_Meal" HorizontalAlignment="Left" Height="23" Margin="94,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="TextBoxC_Meal" HorizontalAlignment="Left" Height="23" Margin="94,130,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="TextBoxD_Meal"  HorizontalAlignment="Left" Height="23" Margin="94,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="TextBoxE_Meal" HorizontalAlignment="Left" Height="23" Margin="94,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="TextBoxF_Meal" HorizontalAlignment="Left" Height="23" Margin="94,233,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="51"/>
+        <Label Content="Meal" HorizontalAlignment="Left" Margin="100,21,0,0" VerticalAlignment="Top" Height="31" Width="47"/>
+        <Button Content="See Individually Total Cost" x:Name="BtnSingleTotalCost" HorizontalAlignment="Left" Margin="365,110,0,0" VerticalAlignment="Top" Width="154" Click="BtnSingleTotalCost_Click" />
+        <Label Content="Rent" HorizontalAlignment="Left" Margin="356,34,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxRent" HorizontalAlignment="Left" Height="23" Margin="408,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>
