@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MRMS_WPF.Migrations.DatabaseContext;
+using MRMS_WPF.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +21,19 @@ namespace MRMS_WPF.View
     /// </summary>
     public partial class Dashboard : Window
     {
+        private readonly ProjectDbContext _projectDbContext;
         public Dashboard()
         {
+            _projectDbContext = new ProjectDbContext();
             InitializeComponent();
+            Test obj = new Test();
+            obj.Name = "Rahim";
+            _projectDbContext.Tests.Add(obj);
+            _projectDbContext.SaveChanges();
+
+            var a = _projectDbContext.Tests.ToList();
+            
+
         }
 
         private void BtnTotalMeal_Click(object sender, RoutedEventArgs e)
