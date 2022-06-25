@@ -70,5 +70,6 @@
         <Button Content="See Individually Total Cost" x:Name="BtnSingleTotalCost" HorizontalAlignment="Left" Margin="365,110,0,0" VerticalAlignment="Top" Width="154" Click="BtnSingleTotalCost_Click" />
         <Label Content="Rent" HorizontalAlignment="Left" Margin="356,34,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="TextBoxRent" HorizontalAlignment="Left" Height="23" Margin="408,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Export As PDF" HorizontalAlignment="Left" Margin="645,389,0,0" VerticalAlignment="Top" Width="131" Click="Button_Click"/>
     </Grid>
 </Window>

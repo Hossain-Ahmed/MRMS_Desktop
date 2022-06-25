@@ -13,6 +13,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Documents;
+using System.Diagnostics;
 
 namespace MRMS_WPF.View
 {
@@ -76,6 +78,23 @@ namespace MRMS_WPF.View
             TextBoxMemberD_Pay.Text = ((Convert.ToDecimal(TextBoxD_Meal.Text) * Convert.ToDecimal(TextBoxMealRate.Text)) + Convert.ToDecimal(TextBoxExtraRate.Text) + Convert.ToDecimal(TextBoxUtility.Text) + Convert.ToDecimal(TextBoxNetBill.Text) + Convert.ToDecimal(TextBoxBuaBill.Text) + Convert.ToDecimal(TextBoxDirtBill.Text) + Convert.ToDecimal(TextBoxRent.Text) - Convert.ToDecimal(TextBoxD_Bazar.Text)).ToString("0.00");
             TextBoxMemberE_Pay.Text = ((Convert.ToDecimal(TextBoxE_Meal.Text) * Convert.ToDecimal(TextBoxMealRate.Text)) + Convert.ToDecimal(TextBoxExtraRate.Text) + Convert.ToDecimal(TextBoxUtility.Text) + Convert.ToDecimal(TextBoxNetBill.Text) + Convert.ToDecimal(TextBoxBuaBill.Text) + Convert.ToDecimal(TextBoxDirtBill.Text) + Convert.ToDecimal(TextBoxRent.Text) - Convert.ToDecimal(TextBoxE_Bazar.Text)).ToString("0.00");
             TextBoxMemberF_Pay.Text = ((Convert.ToDecimal(TextBoxF_Meal.Text) * Convert.ToDecimal(TextBoxMealRate.Text)) + Convert.ToDecimal(TextBoxExtraRate.Text) + Convert.ToDecimal(TextBoxUtility.Text) + Convert.ToDecimal(TextBoxNetBill.Text) + Convert.ToDecimal(TextBoxBuaBill.Text) + Convert.ToDecimal(TextBoxDirtBill.Text) + Convert.ToDecimal(TextBoxRent.Text) - Convert.ToDecimal(TextBoxF_Bazar.Text)).ToString("0.00");
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var printDialog = new PrintDialog();
+            //if (printDialog.ShowDialog() == true)
+            //{
+            //printDialog.PrintTicket.PageMediaSize = new PageMediaSize(100, 200);
+            printDialog.PrintVisual(this, "Window Printing.");
+            //}
+            // this.Close();
+            //Process.Start(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) +
+            //               "/IdCard/DuplexIDCard/" + "10012" +
+            //               ".pdf");
+
+            MessageBox.Show("PDF Exported");
+
         }
     }
 }
